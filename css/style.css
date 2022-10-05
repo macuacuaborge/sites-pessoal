@@ -1,0 +1,76 @@
+
+#container {
+    background: white;
+    display: both;
+}
+.topo {
+    height: 200px;
+    background-color: teal;
+    box-shadow: 0 0 08px;
+    margin: 10px;
+}
+.topo p {
+    color: #000; 
+}
+.topo ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+.topo li {
+    float: left;
+}
+.topo li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topo li a:hover {
+    background-color: #111;
+}
+.conteudo {
+    display: block;
+    border-radius: 04px;
+    box-shadow: 0 0px 05px 0;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    height: 600px;
+    background-color: orange;
+    float: both;
+
+}
+.conteudo p {
+    color: #000; 
+}
+.esquerda{
+    width: 15%;
+    height: 400px;
+    background-color: yellowgreen;
+    border: 1px solid #000;
+    margin: 30px;
+    border-radius: 03px;
+    float: left;
+    }
+.direita {
+    width: 15%;
+    height: 400px;
+    background-color:yellow ;
+    border: 1px solid #000;
+    margin: 30px;
+    border-radius: 03px;
+    float: right;
+} 
+
+#rodape p {
+    text-align: center;
+    color: black;
+    font-size: 16px; 
+}
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
